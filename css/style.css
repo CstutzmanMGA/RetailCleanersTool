@@ -1,0 +1,131 @@
+/* IMPORT CUSTOM FONT */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+/* COLOR PALETTE */
+:root {
+    --turquoise: #47a9d0;
+    --light-turquoise: #37b9e0;
+    --indigo: #23395d;
+    --dark-indigo: #182a47;
+    --white: #ffffff;
+}
+
+/* GLOBAL */
+body {
+    background-color: var(--turquoise);
+    color: var(--indigo);
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.7;
+}
+
+/* HEADER */
+.site-header {
+    background: linear-gradient(
+        135deg,
+        var(--light-turquoise),
+        var(--turquoise)
+    );
+}
+
+.site-header h1 {
+    color: var(--dark-indigo);
+    font-weight: 700;
+}
+
+/* NAVIGATION */
+.custom-nav {
+    background-color: var(--dark-indigo);
+}
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: var(--light-turquoise) !important;
+}
+
+.indigo-border {
+    border: 5px solid #23395d;
+    box-shadow: 0 0 15px rgba(75, 0, 130, 0.5);
+}
+
+/* CONTENT CARDS */
+.content-card {
+    background-color: rgba(255,255,255,.85);
+    padding: 1.75rem;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,.15);
+}
+
+/* HEADINGS */
+h1,
+h2,
+h3 {
+    color: var(--dark-indigo);
+}
+
+h2 {
+    border-bottom: 3px solid var(--light-turquoise);
+    padding-bottom: .4rem;
+    margin-bottom: 1rem;
+}
+
+/* TABLE */
+.custom-table {
+    background-color: white;
+}
+
+.custom-table thead {
+    background-color: var(--dark-indigo);
+    color: white;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #e8f8f7;
+}
+
+.custom-table tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* IMAGES */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* FOOTER */
+.site-footer {
+    background-color: var(--dark-indigo);
+    color: white;
+    padding: 3rem 0;
+}
+
+.site-footer h3 {
+    color: white;
+}
+
+/* RESPONSIVE TWEAKS */
+@media (max-width: 991px) {
+
+    .site-header {
+        text-align: center;
+    }
+
+    .content-card {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    body {
+        font-size: 0.95rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+}

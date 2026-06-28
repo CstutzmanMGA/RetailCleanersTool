@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "title": "Dawn Ultra Dish Soap 19.4 fl oz",
+      "category": "dish soap",
+      "offers": [
+        {
+          "merchant": "Walmart",
+          "price": 4.97,
+          "link": "#"
+        },
+        {
+          "merchant": "Target",
+          "price": 5.19,
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Palmolive Dish Soap 20 fl oz",
+      "category": "dish soap",
+      "offers": [
+        {
+          "merchant": "Walmart",
+          "price": 3.96,
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Tide Liquid Laundry Detergent 92 fl oz",
+      "category": "laundry",
+      "offers": [
+        {
+          "merchant": "Walmart",
+          "price": 12.94,
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "title": "Mrs Meyers Multi Surface Cleaner 16 fl oz",
+      "category": "cleaner",
+      "offers": [
+        {
+          "merchant": "Target",
+          "price": 4.49,
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}

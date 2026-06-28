@@ -1,0 +1,26 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs & temp files
+*.log
+*.tmp
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Dependencies
+node_modules/
+vendor/
+
+# Cache / temp folders
+/cache/
+tmp/
+
+# Environment
+.env
+
+# Zip/build files
+*.zip
